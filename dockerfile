@@ -9,3 +9,4 @@ RUN unzip healet.zip
 RUN cp-rvf markups-healet/* .
 RUN rm-rf_MACOSX markups-healet healet.zip 
 CMD ["/usr/sbin/apache2", "-D", FORGROUND"]
+EXPOSE 80
